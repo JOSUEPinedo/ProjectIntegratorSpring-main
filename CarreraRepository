@@ -1,0 +1,10 @@
+package com.upeu.demo.repository;
+
+import com.upeu.demo.entity.Carrera;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CarreraRepository extends CrudRepository<Carrera, Long>{
+    
+}
